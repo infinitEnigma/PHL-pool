@@ -16,7 +16,7 @@ build container
 
 EDIT YOUR CONFIGS. update passwords and public/private keys.
 
-`sudo docker build -t PHL-pool/phl .`
+`sudo docker build -t phl-pool/phl .`
 
 run pool container
 
