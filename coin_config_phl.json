@@ -2,9 +2,9 @@
     "name": "RavenDark",
     "symbol": "XRD",
     "algorithm": "x16r",
-    //"peerMagic": "b1a6d7de",
-    "explorerGetBlockJSON": "http://explore.placeh.io/api/block/",
-    "explorerGetBlock": "http://explore.placeh.io/api/rawblock/",
-    "explorerGetTX": "http://explore.placeh.io/api/tx/{0}",
+    #"peerMagic": "b1a6d7de",
+    "explorerGetBlockJSON": "http://explore.placeh.io:3001/api/block/",
+    "explorerGetBlock": "http://explore.placeh.io:3001/api/rawblock/",
+    "explorerGetTX": "http://explore.placeh.io:3001/api/tx/{0}",
     "blockTime": 60
 }
