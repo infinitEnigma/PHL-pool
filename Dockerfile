@@ -58,7 +58,7 @@ RUN git clone https://github.com/infinitEnigma/BootNOMP.git nomp && \
 
 RUN mkdir /placeh
 
-RUN wget -qO- https://github.com/xagau/Placeholders-X16R/blob/master/setup-placeh-2.0.29.2-ubuntu.tar.gz | tar xvz -C /placeh
+RUN wget -qO- https://github.com/xagau/Placeholders-X16R/blob/master/setup-placeh-2.0.29.2-ubuntu.tar.gz | tar xv -C /placeh
 
 RUN chmod +x /placeh/placehd
 RUN chmod +x /placeh/placeh-cli
