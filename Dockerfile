@@ -56,7 +56,7 @@ RUN git clone https://github.com/infinitEnigma/BootNOMP.git nomp && \
   cd nomp && \
   npm update
 
-RUN mkdir /ravendark
+RUN mkdir /placeh
 
 RUN wget -qO- https://github.com/xagau/Placeholders-X16R/blob/master/setup-placeh-2.0.29.2-ubuntu.tar.gz | tar xvz -C /placeh
 
