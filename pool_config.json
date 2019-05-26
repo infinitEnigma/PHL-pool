@@ -1,0 +1,75 @@
+{
+    "enabled": true,
+    "coin": "phl.json",
+   
+    "address": "pool-pub-address",
+    //"_comment_address": "a transparent address to send coinbase rewards to and to transfer to zAddress.",
+    //"zAddress": "private_address",
+    //"_comment_zAddress": "a private address used to send coins to tAddress.",
+    //"tAddress": "transparent_address_2",
+    //"_comment_tAddress": "transparent address used to send payments, make this a different address, otherwise payments will not send",
+
+    //"walletInterval": 2.5,
+
+    "rewardRecipients": {
+    },
+    "paymentProcessing": {
+            "minConf": 10,
+        "enabled": true,
+        //"paymentMode": "prop",
+        //"_comment_paymentMode":"prop, pplnt",
+        "paymentInterval": 600,
+        "minimumPayment": 1,
+        "maxBlocksPerPayment": 3,
+        "daemon": {
+            "host": "127.0.0.1",
+            "port": 6665,
+            "user": "user",
+            "password": "pass"
+        }
+    },
+    "ports": {
+        "3030": {
+            "diff": 8,
+            "varDiff": {
+                "minDiff": 8,
+                "maxDiff": 5120,
+                "targetTime": 15,
+                "retargetTime": 90,
+                "variancePercent": 30
+            }
+        }
+    },
+    "daemons": [
+        {
+            "host": "127.0.0.1",
+            "port": 6665,
+            "user": "user",
+            "password": "pass"
+        }
+    ],
+    "p2p": {
+        "enabled": true,
+        "host": "127.0.0.1",
+        "port": 6666,
+        "disableTransactions": true
+    },
+    "mposMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 3306,
+        "user": "me",
+        "password": "mypass",
+        "database": "vtc",
+        "checkPassword": true,
+        "autoCreateWorker": false
+    },
+    "mongoMode": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "user": "",
+        "pass": "",
+        "database": "vtc",
+        "authMechanism": "DEFAULT"
+    }
+}
