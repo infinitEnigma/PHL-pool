@@ -14,7 +14,7 @@
         "maxBlocksPerPayment": 3,
         "daemon": {
             "host": "127.0.0.1",
-            "port": 6607,
+            "port": 6608,
             "user": "user",
             "password": "pass"
         }
@@ -34,7 +34,7 @@
     "daemons": [
         {
             "host": "127.0.0.1",
-            "port": 6607,
+            "port": 6608,
             "user": "user",
             "password": "pass"
         }
@@ -42,7 +42,7 @@
     "p2p": {
         "enabled": true,
         "host": "127.0.0.1",
-        "port": 6608,
+        "port": 6607,
         "disableTransactions": true
     },
     "mposMode": {
