@@ -1,23 +1,14 @@
 {
     "enabled": true,
-    "coin": "phl.json",
+    "coin": "placeh.json",
    
     "address": "pool-pub-address",
-    //"_comment_address": "a transparent address to send coinbase rewards to and to transfer to zAddress.",
-    //"zAddress": "private_address",
-    //"_comment_zAddress": "a private address used to send coins to tAddress.",
-    //"tAddress": "transparent_address_2",
-    //"_comment_tAddress": "transparent address used to send payments, make this a different address, otherwise payments will not send",
-
-    //"walletInterval": 2.5,
-
+    
     "rewardRecipients": {
     },
     "paymentProcessing": {
             "minConf": 10,
         "enabled": true,
-        //"paymentMode": "prop",
-        //"_comment_paymentMode":"prop, pplnt",
         "paymentInterval": 600,
         "minimumPayment": 1,
         "maxBlocksPerPayment": 3,
