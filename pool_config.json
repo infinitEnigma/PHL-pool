@@ -40,7 +40,7 @@
         }
     ],
     "p2p": {
-        "enabled": true,
+        "enabled": false,
         "host": "127.0.0.1",
         "port": 6607,
         "disableTransactions": true
