@@ -83,7 +83,7 @@ COPY entrypoint.sh ./entrypoint.sh
 
 RUN chmod +x entrypoint.sh
 
-EXPOSE 8080 6665 6666 3030
+EXPOSE 8080 6607 6608 3030
 
 # CMD tail -f /dev/null
 
