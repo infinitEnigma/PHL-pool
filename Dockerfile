@@ -10,6 +10,8 @@ RUN apt-get install -y build-essential libtool automake autotools-dev autoconf \
 RUN apt-get install -y libboost-system-dev libboost-filesystem-dev libboost-chrono-dev \
   libboost-program-options-dev libboost-test-dev libboost-thread-dev
 
+RUN sudo apt-get install -y git g++ cmake wget llvm-4.0 lsb-release libjsoncpp1 libjsoncpp-dev libboost1.58-all-dev libzmq5 libstdc++6 libgcc1 libpgm-5.2-0
+
 RUN add-apt-repository ppa:bitcoin/bitcoin
 RUN apt-get update
 RUN apt-get install -y libdb4.8-dev libdb4.8++-dev
