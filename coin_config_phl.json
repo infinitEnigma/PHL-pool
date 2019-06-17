@@ -3,7 +3,7 @@
     "symbol": "PHL",
     "algorithm": "x16r",
     "explorerGetBlockJSON": "http://explore.placeh.io:8080/api/block/",
-    //"explorerGetBlock": "http://explore.placeh.io:8080/api/rawblock/",
+    /*"explorerGetBlock": "http://explore.placeh.io:8080/api/rawblock/",*/
     "explorerGetTX": "http://explore.placeh.io:8080/api/tx/{0}",  
     "blockTime": 60
 }
